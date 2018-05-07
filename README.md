@@ -1,2 +1,0 @@
-# XcodeTemplate
-Xcode Template

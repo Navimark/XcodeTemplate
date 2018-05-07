@@ -19,4 +19,23 @@
     NSLog(@"⚔⚔%@(%p) dealloc⚔⚔⚔⚔",NSStringFromClass([self class]),self);
 }
 
+- (void)awakeFromNib
+{
+    [super awakeFromNib];
+}
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self setupUI];
+    }
+    return self;
+}
+
+- (void)setupUI
+{
+    
+}
+
 @end
